@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from EDGEMUSIC import app
 from EDGEMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
 from EDGEMUSIC.utils.decorators import language
-from EDGEMUISC.utils.inline.settings import playmode_users_markup
+from EDGEMUSIC.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
