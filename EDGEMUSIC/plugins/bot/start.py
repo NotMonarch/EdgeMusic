@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from EDGEMusic import app
-from EDGEMusic.misc import _boot_
-from EDGEMusic.plugins.sudo.sudoers import sudoers_list
-from EDGEMusic.utils.database import (
+from EDGEMUISC import app
+from EDGEMUSIC.misc import _boot_
+from EDGEMUSIC.plugins.sudo.sudoers import sudoers_list
+from EDGEMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,9 +17,9 @@ from EDGEMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from EDGEMusic.utils.decorators.language import LanguageStart
-from EDGEMusic.utils.formatters import get_readable_time
-from EDGEMusic.utils.inline import help_pannel, private_panel, start_panel
+from EDGEMUSIC.utils.decorators.language import LanguageStart
+from EDGEMUSIC.utils.formatters import get_readable_time
+from EDGEMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
