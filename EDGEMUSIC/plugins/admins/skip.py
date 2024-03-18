@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from EDGEMusic import YouTube, app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import db
-from EDGEMusic.utils.database import get_loop
-from EDGEMusic.utils.decorators import AdminRightsCheck
-from EDGEMusic.utils.inline import close_markup, stream_markup
-from EDGEMusic.utils.stream.autoclear import auto_clean
-from EDGEMusic.utils.thumbnails import get_thumb
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.database import get_loop
+from EDGEMUSIC.utils.decorators import AdminRightsCheck
+from EDGEMUSIC.utils.inline import close_markup, stream_markup
+from EDGEMUSIC.utils.stream.autoclear import auto_clean
+from EDGEMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
@@ -75,7 +75,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await TGN.stop_stream(chat_id)
+                    return await EDGE.stop_stream(chat_id)
                 except:
                     return
         except:
