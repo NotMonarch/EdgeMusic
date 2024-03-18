@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await TGN.force_stop_stream(chat_id)
+        await EDGE.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
