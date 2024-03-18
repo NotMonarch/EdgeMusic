@@ -11,10 +11,10 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from EDGEMusic import YouTube, app
-from EDGEMusic.utils.decorators.language import language, languageCB
-from EDGEMusic.utils.formatters import convert_bytes
-from EDGEMusic.utils.inline.song import song_markup
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.utils.decorators.language import language, languageCB
+from EDGEMUSIC.utils.formatters import convert_bytes
+from EDGEMUSIC.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = ["song"]
