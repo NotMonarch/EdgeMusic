@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from EDGEMusic import app
-from EDGEMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from EDGEMusic.utils.decorators import language
-from EDGEMusic.utils.inline.settings import playmode_users_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from EDGEMUSIC.utils.decorators import language
+from EDGEMUISC.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
