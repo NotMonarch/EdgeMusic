@@ -1,8 +1,8 @@
 from strings import get_string
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import get_lang, is_maintenance
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
