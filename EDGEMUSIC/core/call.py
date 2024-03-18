@@ -21,9 +21,9 @@ from pytgcalls.types.stream import AudioQuality, VideoQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from EDGEMusic import LOGGER, YouTube, app
-from EDGEMusic.misc import db
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import LOGGER, YouTube, app
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -35,11 +35,11 @@ from EDGEMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from EDGEMusic.utils.exceptions import AssistantErr
-from EDGEMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from EDGEMusic.utils.inline.play import stream_markup
-from EDGEMusic.utils.stream.autoclear import auto_clean
-from EDGEMusic.utils.thumbnails import get_thumb
+from EDGEMUSIC.utils.exceptions import AssistantErr
+from EDGEMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from EDGEMUSIC.utils.inline.play import stream_markup
+from EDGEMUSIC.utils.stream.autoclear import auto_clean
+from EDGEMUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
