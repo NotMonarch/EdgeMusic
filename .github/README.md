@@ -9,7 +9,7 @@
 ![logo](https://telegra.ph/file/2e0b94786bad28feec623.jpg)
 
 <h1 align="center">
-  <b>IO.Music</b>
+  <b>Edge Music</b>
 </h1>
 
 ## <h2 align="center">
