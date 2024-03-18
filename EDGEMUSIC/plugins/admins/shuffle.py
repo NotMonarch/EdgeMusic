@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.misc import db
-from EDGEMusic.utils.decorators import AdminRightsCheck
-from EDGEMusic.utils.inline import close_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.decorators import AdminRightsCheck
+from EDGEMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
