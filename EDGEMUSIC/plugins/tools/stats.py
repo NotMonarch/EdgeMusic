@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from EDGEMusic import app
-from EDGEMusic.core.userbot import assistants
-from EDGEMusic.misc import SUDOERS, mongodb
-from EDGEMusic.plugins import ALL_MODULES
-from EDGEMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from EDGEMusic.utils.decorators.language import language, languageCB
-from EDGEMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from EDGEMUSIC import app
+from EDGEMUSIC.core.userbot import assistants
+from EDGEMUSIC.misc import SUDOERS, mongodb
+from EDGEMUSIC.plugins import ALL_MODULES
+from EDGEMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from EDGEMUSIC.utils.decorators.language import language, languageCB
+from EDGEMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 @app.on_message(filters.command(["stats", "gstats"]) & filters.group & ~BANNED_USERS & SUDOERS)
