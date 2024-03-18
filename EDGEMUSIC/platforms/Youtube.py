@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from EDGEMusic.utils.database import is_on_off
-from EDGEMusic.utils.formatters import time_to_seconds
+from EDGEMUSIC.utils.database import is_on_off
+from EDGEMUSIC.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
