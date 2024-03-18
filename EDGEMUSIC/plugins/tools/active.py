@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
