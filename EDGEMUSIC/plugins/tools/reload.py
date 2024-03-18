@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from EDGEMusic import app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import db
-from EDGEMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from EDGEMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from EDGEMusic.utils.formatters import alpha_to_int, get_readable_time
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from EDGEMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from EDGEMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
