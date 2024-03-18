@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.core.call import EDGE
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import EDGE
 
 welcome = 20
 close = 30
