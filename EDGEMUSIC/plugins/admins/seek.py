@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import YouTube, app
-from EDGEMusic.core.call import TGN
-from EDGEMusic.misc import db
-from EDGEMusic.utils import AdminRightsCheck, seconds_to_min
-from EDGEMusic.utils.inline import close_markup
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils import AdminRightsCheck, seconds_to_min
+from EDGEMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await TGN.seek_stream(
+        await EDGE.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
