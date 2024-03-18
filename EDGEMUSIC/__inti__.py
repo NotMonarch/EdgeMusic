@@ -1,8 +1,8 @@
-from EDGEMusic.core.bot import EDGE
-from EDGEMusic.core.dir import dirr
-from EDGEMusic.core.git import git
-from EDGEMusic.core.userbot import Userbot
-from EDGEMusic.misc import dbb, heroku, sudo
+from EDGEMUSIC.core.bot import EDGE
+from EDGEMUSIC.core.dir import dirr
+from EDGEMUSIC.core.git import git
+from EDGEMUSIC.core.userbot import Userbot
+from EDGEMUSIC.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
