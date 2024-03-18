@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.core.call import TGN
-from EDGEMusic.utils.database import is_music_playing, music_off
-from EDGEMusic.utils.decorators import AdminRightsCheck
-from EDGEMusic.utils.inline import close_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import TGN
+from EDGEMUSIC.utils.database import is_music_playing, music_off
+from EDGEMUSIC.utils.decorators import AdminRightsCheck
+from EDGEMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
