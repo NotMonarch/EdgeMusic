@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import add_off, add_on
-from EDGEMusic.utils.decorators.language import language
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import add_off, add_on
+from EDGEMUSIC.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
