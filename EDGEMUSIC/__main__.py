@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from EDGEMusic import LOGGER, app, userbot
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import sudo
-from EDGEMusic.plugins import ALL_MODULES
-from EDGEMusic.utils.database import get_banned_users, get_gbanned
+from EDGEMUSIC import LOGGER, app, userbot
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import sudo
+from EDGEMUSIC.plugins import ALL_MODULES
+from EDGEMUSIC.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -38,23 +38,23 @@ async def init():
         importlib.import_module("EDGEMusic.plugins" + all_module)
     LOGGER("EDGEMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await TGN.start()
+    await EDGE.start()
     try:
         await EDGE.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
     except NoActiveGroupCall:
-        LOGGER("EDGEMusic").error(
+        LOGGER("EDGEMUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
-    await TGN.decorators()
-    LOGGER("EDGEMusic").info(
+    await EDGE.decorators()
+    LOGGER("EDGEMUSIC").info(
         "EDGE Music Bot Started Successfully"
     )
     await idle()
     await app.stop()
-    LOGGER("EDGEMusic").info("Stopping EDGE Music Bot...")
+    LOGGER("EDGEMUSIC").info("Stopping EDGE Music Bot...")
 
 
 if __name__ == "__main__":
