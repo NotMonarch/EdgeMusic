@@ -1,16 +1,16 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from TGNMusic import app
+from EDGEMUSIC import app
 
 
 def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍs", url=f"https://t.me/{app.username}?startgroup=true"
+                text="Add Me", url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="Support", url=config.SUPPORT_CHAT),
         ],
     ]
     return buttons
@@ -19,15 +19,15 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{app.username}?startgroup=true"),
-            InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="Add Me", url=f"https://t.me/{app.username}?startgroup=true"),
+            InlineKeyboardButton(text="Help", callback_data="settings_back_helper"),
         ],
         [
-            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="Developer", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="Support", url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text="ᴇᴅɢᴇ ʙᴏᴛs", url=f"https://t.me/edgebots"),
+            InlineKeyboardButton(text="Edge Bots", url=f"https://t.me/edgebots"),
         ]
     ]
     return buttons
