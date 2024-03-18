@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from EDGEMusic import app
-from EDGEMusic.utils.inlinequery import answer
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.inlinequery import answer
 from config import BANNED_USERS
 
 
