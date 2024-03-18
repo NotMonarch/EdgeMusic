@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import SUDOERS, db
-from EDGEMusic.utils import AdminRightsCheck
-from EDGEMusic.utils.database import is_active_chat, is_nonadmin_chat
-from EDGEMusic.utils.decorators.language import languageCB
-from EDGEMusic.utils.inline import close_markup, speed_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import SUDOERS, db
+from EDGEMUSIC.utils import AdminRightsCheck
+from EDGEMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from EDGEMUSIC.utils.decorators.language import languageCB
+from EDGEMUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
