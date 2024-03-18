@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.utils import extract_user, int_to_alpha
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import app
+from EDGEMUSIC.utils import extract_user, int_to_alpha
+from EDGEMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from EDGEMusic.utils.decorators import AdminActual, language
-from EDGEMusic.utils.inline import close_markup
+from EDGEMUSIC.utils.decorators import AdminActual, language
+from EDGEMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
