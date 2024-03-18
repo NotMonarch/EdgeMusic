@@ -82,10 +82,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/06fa3c0a658d5db463b58.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/2e0b94786bad28feec623.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e2ca803b13b7370b9c28a.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/92b6797463290f2121b0d.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/cb1947522c0de4c4a63e8.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/e2ca803b13b7370b9c28a.jpg"
