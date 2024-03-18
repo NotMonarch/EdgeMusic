@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from EDGEMusic import app
-from EDGEMusic.utils.formatters import (
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
