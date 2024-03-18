@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import add_sudo, remove_sudo
-from EDGEMusic.utils.decorators.language import language
-from EDGEMusic.utils.extraction import extract_user
-from EDGEMusic.utils.inline import close_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import add_sudo, remove_sudo
+from EDGEMUSIC.utils.decorators.language import language
+from EDGEMUSIC.utils.extraction import extract_user
+from EDGEMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
