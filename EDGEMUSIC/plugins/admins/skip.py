@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from EDGEMusic import YouTube, app
-from EDGEMusic.core.call import TGN
+from EDGEMusic.core.call import EDGE
 from EDGEMusic.misc import db
 from EDGEMusic.utils.database import get_loop
 from EDGEMusic.utils.decorators import AdminRightsCheck
