@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS, db
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS, db
+from EDGEMUSIC.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
