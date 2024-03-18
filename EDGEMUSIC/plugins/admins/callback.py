@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from EDGEMusic import YouTube, app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import SUDOERS, db
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import SUDOERS, db
+from EDGEMUSIC.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from EDGEMusic.utils.database import (
     music_on,
     set_loop,
 )
-from EDGEMusic.utils.decorators.language import languageCB
-from EDGEMusic.utils.formatters import seconds_to_min
-from EDGEMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from EDGEMusic.utils.stream.autoclear import auto_clean
-from EDGEMusic.utils.thumbnails import get_thumb
+from EDGEMUSIC.utils.decorators.language import languageCB
+from EDGEMUSIC.utils.formatters import seconds_to_min
+from EDGEMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
+from EDGEMUSIC.utils.stream.autoclear import auto_clean
+from EDGEMUSIC.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
