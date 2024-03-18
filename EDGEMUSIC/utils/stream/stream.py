@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await TGN.join_call(
+                await EDGE.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
