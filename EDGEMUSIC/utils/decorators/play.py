@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from EDGEMusic import YouTube, app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from EDGEMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from EDGEMusic.utils.inline import botplaylist_markup
+from EDGEMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
