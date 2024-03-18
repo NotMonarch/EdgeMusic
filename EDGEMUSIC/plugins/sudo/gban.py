@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils import get_readable_time
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils import get_readable_time
+from EDGEMUSIC.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from EDGEMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.extraction import extract_user
+from EDGEMUSIC.utils.decorators.language import language
+from EDGEMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
