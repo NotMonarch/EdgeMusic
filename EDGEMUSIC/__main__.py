@@ -5,7 +5,7 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from EDGEMUSIC import LOGGER, app, userbot
+from EDGEMusic import LOGGER, app, userbot
 from EDGEMUSIC.core.call import EDGE
 from EDGEMUSIC.misc import sudo
 from EDGEMUSIC.plugins import ALL_MODULES
