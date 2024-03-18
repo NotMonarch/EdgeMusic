@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.utils import bot_sys_stats
-from EDGEMusic.utils.decorators.language import language
-from EDGEMusic.utils.inline import supp_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.utils import bot_sys_stats
+from EDGEMUSIC.utils.decorators.language import language
+from EDGEMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
