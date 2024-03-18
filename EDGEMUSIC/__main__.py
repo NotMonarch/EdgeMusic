@@ -5,8 +5,7 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from .logging import LOGGER
-from EDGEMUSIC import app, userbot
+from EDGEMUSIC import LOGGER, app, userbot
 from EDGEMUSIC.core.call import EDGE
 from EDGEMUSIC.misc import sudo
 from EDGEMUSIC.plugins import ALL_MODULES
@@ -36,8 +35,8 @@ async def init():
     await sudo()
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("EDGEMusic.plugins" + all_module)
-    LOGGER("EDGEMusic.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("EDGEMUSIC.plugins" + all_module)
+    LOGGER("EDGEMUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await EDGE.start()
     try:
