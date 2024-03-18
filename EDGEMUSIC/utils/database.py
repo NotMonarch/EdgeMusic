@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from EDGEMusic import userbot
-from EDGEMusic.core.mongo import mongodb
+from EDGEMUSIC import userbot
+from EDGEMUSIC.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
