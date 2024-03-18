@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from EDGEMusic.misc import db
-from EDGEMusic.utils.formatters import check_duration, seconds_to_min
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
