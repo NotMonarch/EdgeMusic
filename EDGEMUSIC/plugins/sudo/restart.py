@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from EDGEMusic import app
-from EDGEMusic.misc import HAPP, SUDOERS, XCB
-from EDGEMusic.utils.database import (
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import HAPP, SUDOERS, XCB
+from EDGEMUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from EDGEMusic.utils.decorators.language import language
-from EDGEMusic.utils.pastebin import EDGEBin
+from EDGEMUSIC.utils.decorators.language import language
+from EDGEMUSIC.utils.pastebin import EDGEBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
