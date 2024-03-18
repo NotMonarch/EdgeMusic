@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from EDGEMusic import Carbon, YouTube, app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.misc import db
-from EDGEMusic.utils.database import add_active_video_chat, is_active_chat
-from EDGEMusic.utils.exceptions import AssistantErr
-from EDGEMusic.utils.inline import aq_markup, close_markup, stream_markup
-from EDGEMusic.utils.pastebin import EDGEBin
-from EDGEMusic.utils.stream.queue import put_queue, put_queue_index
-from EDGEMusic.utils.thumbnails import get_thumb
+from EDGEMUSIC import Carbon, YouTube, app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.database import add_active_video_chat, is_active_chat
+from EDGEMUSIC.utils.exceptions import AssistantErr
+from EDGEMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from EDGEMUSIC.utils.pastebin import EDGEBin
+from EDGEMUSIC.utils.stream.queue import put_queue, put_queue_index
+from EDGEMUSIC.utils.thumbnails import get_thumb
 
 
 async def stream(
