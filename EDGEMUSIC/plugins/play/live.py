@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from EDGEMusic import YouTube, app
-from EDGEMusic.utils.channelplay import get_channeplayCB
-from EDGEMusic.utils.decorators.language import languageCB
-from EDGEMusic.utils.stream.stream import stream
+from EDGEMUSIC import YouTube, app
+from EDGEMUSIC.utils.channelplay import get_channeplayCB
+from EDGEMUSIC.utils.decorators.language import languageCB
+from EDGEMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
