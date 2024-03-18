@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from EDGEMusic.utils.decorators.language import language
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from EDGEMUSIC.utils.decorators.language import language
 from config import BANNED_USERS
 
 
