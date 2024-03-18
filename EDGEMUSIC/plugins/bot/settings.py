@@ -27,7 +27,7 @@ from EDGEMusic.utils.database import (
 )
 from EDGEMusic.utils.decorators.admins import ActualAdminCB
 from EDGEMusic.utils.decorators.language import language, languageCB
-from TGNMusic.utils.inline.settings import (
+from EDGEMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
