@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from EDGEMusic import app
-from EDGEMusic.core.call import EDGE, autoend
-from EDGEMusic.utils.database import (get_client, is_active_chat,
+from EDGEMUSIC import app
+from EDGEMUSIC.core.call import EDGE, autoend
+from EDGEMUSIC.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
