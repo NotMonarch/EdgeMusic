@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from EDGEMusic import app
-from EDGEMusic.utils.database import is_on_off
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.database import is_on_off
 from config import LOG_GROUP_ID
 
 
