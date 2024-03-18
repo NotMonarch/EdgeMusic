@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from EDGEMusic import app
-from EDGEMusic.utils.database import get_lang, set_lang
-from EDGEMusic.utils.decorators import ActualAdminCB, language, languageCB
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.database import get_lang, set_lang
+from EDGEMUSIC.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
