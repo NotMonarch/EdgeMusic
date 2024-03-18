@@ -1,5 +1,5 @@
-from EDGEMusic import app
-from EDGEMusic.utils.database import get_cmode
+from EDGEMUSIC import app
+from EDGEMUSIC.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
