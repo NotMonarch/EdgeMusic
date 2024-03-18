@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EDGEMusic import app
-from EDGEMusic.misc import SUDOERS
-from EDGEMusic.utils.database import autoend_off, autoend_on
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import SUDOERS
+from EDGEMUSIC.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
