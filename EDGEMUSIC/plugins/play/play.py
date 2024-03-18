@@ -7,22 +7,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from EDGEMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from EDGEMusic.core.call import EDGE
-from EDGEMusic.utils import seconds_to_min, time_to_seconds
-from EDGEMusic.utils.channelplay import get_channeplayCB
-from EDGEMusic.utils.decorators.language import languageCB
-from EDGEMusic.utils.decorators.play import PlayWrapper
-from EDGEMusic.utils.formatters import formats
-from EDGEMusic.utils.inline import (
+from EDGEMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from EDGEMUSIC.core.call import EDGE
+from EDGEMUSIC.utils import seconds_to_min, time_to_seconds
+from EDGEMUSIC.utils.channelplay import get_channeplayCB
+from EDGEMUSIC.utils.decorators.language import languageCB
+from EDGEMUSIC.utils.decorators.play import PlayWrapper
+from EDGEMUSIC.utils.formatters import formats
+from EDGEMSUIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from EDGEMusic.utils.logger import play_logs
-from EDGEMusic.utils.stream.stream import stream
+from EDGEMUSIC.utils.logger import play_logs
+from EDGEMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
