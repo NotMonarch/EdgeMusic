@@ -8,7 +8,7 @@ from EDGEMUSIC.utils.decorators.language import language
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
 @language
-async def logger(client, message, _):
+async def LOGGER(client, message, _):
     usage = _["log_1"]
     if len(message.command) != 2:
         return await message.reply_text(usage)
