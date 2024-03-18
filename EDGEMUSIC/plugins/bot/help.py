@@ -3,7 +3,7 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from EDGEMUISC import app
+from EDGEMUSIC import app
 from EDGEMUSIC.utils import help_pannel
 from EDGEMUSIC.utils.database import get_lang
 from EDGEMUSIC.utils.decorators.language import LanguageStart, languageCB
