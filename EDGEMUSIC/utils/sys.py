@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from EDGEMusic.misc import _boot_
-from EDGEMusic.utils.formatters import get_readable_time
+from EDGEMUSIC.misc import _boot_
+from EDGEMUSIC.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
