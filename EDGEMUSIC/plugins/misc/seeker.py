@@ -1,7 +1,7 @@
 import asyncio
 
-from EDGEMusic.misc import db
-from EDGEMusic.utils.database import get_active_chats, is_music_playing
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
