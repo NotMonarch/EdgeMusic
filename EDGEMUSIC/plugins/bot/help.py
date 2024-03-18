@@ -40,7 +40,7 @@ async def helper_private(
         keyboard = help_pannel(_)
         await update.reply_photo(
             photo=START_IMG_URL,
-            caption=_["help_1"].format("https://t.me/OpacitySupportGroup"),
+            caption=_["help_1"].format("https://t.me/EdgeBotSupport"),
             reply_markup=keyboard,
         )
 
