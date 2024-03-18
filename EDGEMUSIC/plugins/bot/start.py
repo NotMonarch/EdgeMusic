@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from EDGEMUISC import app
+from EDGEMUSIC import app
 from EDGEMUSIC.misc import _boot_
 from EDGEMUSIC.plugins.sudo.sudoers import sudoers_list
 from EDGEMUSIC.utils.database import (
