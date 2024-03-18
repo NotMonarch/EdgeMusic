@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from EDGEMusic import app
-from EDGEMusic.misc import db
-from EDGEMusic.utils import EDGEBin, get_channeplayCB, seconds_to_min
-from EDGEMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from EDGEMusic.utils.decorators.language import language, languageCB
-from EDGEMusic.utils.inline import queue_back_markup, queue_markup
+from EDGEMUSIC import app
+from EDGEMUSIC.misc import db
+from EDGEMUSIC.utils import EDGEBin, get_channeplayCB, seconds_to_min
+from EDGEMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from EDGEMUSIC.utils.decorators.language import language, languageCB
+from EDGEMUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
